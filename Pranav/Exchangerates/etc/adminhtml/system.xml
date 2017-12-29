@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2015 ShopGo. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <section id="currency">
+            <group id="alphavantage" translate="label" sortOrder="31" showInDefault="1" showInWebsite="0" showInStore="0">
+                <label>Alpha Vantage</label>
+                <field id="keyvalue" translate="label" type="text" sortOrder="1" showInDefault="1" showInWebsite="0" showInStore="0">
+                    <label>Key</label>
+                    <comment><![CDATA[Generate your free key from <a target="_blank" href="https://www.alphavantage.co/support/#api-key">Alpha Vantage</a>]]></comment>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>
